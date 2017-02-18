@@ -5,8 +5,7 @@ import sys
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 pinList = [26, 17, 27, 22, 18, 23, 24, 25]
-#for i in pinList:
- #   GPIO.output(i, GPIO.HIGH)
+#GPIO number on Raspberry Pi 
 
 def turnon(NumGPIO, NumRelay):
     GPIO.setup(NumGPIO, GPIO.OUT)
