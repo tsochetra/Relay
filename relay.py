@@ -58,3 +58,4 @@ elif len(sys.argv) == 2:
         for i in pinList:
             GPIO.setup(i, GPIO.OUT)
             GPIO.output(i, GPIO.HIGH)
+            #test somethings
